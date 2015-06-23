@@ -14,7 +14,7 @@ Python 3
 python3 server.py <local-port>
 ```
 
-Use port number 3000+ to safely avoid conflicts with reserved ports.
+	Use port number 3000+ to safely avoid conflicts with reserved ports.
 
 2. Start the client on the machine you are sending the file from using the following command:
 
@@ -22,21 +22,16 @@ Use port number 3000+ to safely avoid conflicts with reserved ports.
 python3 client.py <remote-IP> <remote-port> <local-file-to-transfer>
 ```
 
-Where
+	Where
 
 	```bash
-<remove-IP> 
-```
-is the IP of the server
+<remote-IP> 
+```  is the IP of the server
 
 	```bash
 <remote-port>
-```
-
- is the local port of the server
+``` is the local port of the server
 
  	```bash
 <local-file-to-transfer>
-```
-
-is the local address of the file to send
+``` is the local address of the file to send
