@@ -25,13 +25,13 @@ python3 client.py <remote-IP> <remote-port> <local-file-to-transfer>
 	Where
 
 	```bash
-<remote-IP> 
-```  is the IP of the server
+<remote-IP> is the IP of the server
+```
 
 	```bash
-<remote-port>
-``` is the local port of the server
+<remote-port> is the local port of the server
+```
 
- 	```bash
-<local-file-to-transfer>
-``` is the local address of the file to send
+	```bash
+<local-file-to-transfer> is the local address of the file to send
+```
